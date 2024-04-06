@@ -1,0 +1,46 @@
+body{
+    background: rgb(204, 203, 203) ;
+    margin : 0;
+}
+
+header {
+    background: white;
+    padding: 10px;
+}
+
+header h1{
+    margin: 0;
+}
+
+div.post{
+    background: white;
+}
+
+div.post h2,
+div.post p{
+    padding: 10px;
+}
+div.post img{
+    width: 98%;
+    
+}
+div.container{
+    width: 600px;
+    margin: auto;
+}
+
+div.tope{
+    display: flex;
+    flex-direction: row;
+}
+
+div.texto{
+    width: 80%;
+    
+}
+
+div.fecha{
+    width: 20%;
+    text-align: right;
+    color:gray;
+}
